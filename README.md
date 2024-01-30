@@ -8,7 +8,7 @@ Explore a vast digital realm  of knowledge with our E-Book library website.
 4.	Industry : ED-TECH(E-Book library)<br>
 
 <h1>Roles & Responsibilities:</h1>
-1)Y.Prasanna (project Development & Deployment) : Manages the web development project and Deployment process.<br>
+1)Y.Prasanna (project Development & ) : Manages the web development project and Deployment process.<br>
 2) I. Sai Teja (content )             : Responsible for managing the website content & AI services.<br>
 3) Himabindu ()              : Responsible for managing the description & Documentaion.<br>
 
