@@ -2,7 +2,7 @@
 <h1>E-BOOK LIBRARY WEBSITE</h1>
 Explore a vast digital realm  of knowledge with our E-Book library website.
 <h1>Project Details:</h1>
-1.	Project Demo URL       : https://ebooklibrary12.z13.web.core.windows.net/<br>.
+1.	Project Demo URL       : https://ebooklibrary12.z13.web.core.windows.net/<br>
 2.	Demo Video URL         : https://youtu.be/ybSfaQe4c0s?si=cZelj_GTlacP6gAY <br>
 3.	GitHub Repository URL  : https://github.com/prasannagoud1916/E-Book-library<br>
 4.	Industry               : ED-TECH(E-Book library)<br>
