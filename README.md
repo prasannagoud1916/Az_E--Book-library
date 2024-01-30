@@ -4,7 +4,7 @@ Explore a vast digital realm  of knowledge with our E-Book library website.
 <h1>Project Details:</h1>
 1.	Project  URL:<br>
 2.	Demo Video URL: <br>
-3.	GitHub Repository URL :<br>
+3.	GitHub  URL :<br>
 4.	Industry : ED-TECH(E-Book library)<br>
 
 <h1>Roles & Responsibilities:</h1>
