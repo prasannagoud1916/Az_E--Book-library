@@ -2,21 +2,21 @@
 <h1>E-BOOK LIBRARY WEBSITE</h1>
 Explore a vast digital realm  of knowledge with our E-Book library website.
 <h1>Project Details:</h1>
-1.	Project  URL:<br>
-2.	Demo Video URL: <br>
-3.	GitHub  URL :https://github.com/prasannagoud1916/E-Book-library<br>
-4.	Industry : ED-TECH(E-Book library)<br>
+1.	Project Demo URL       : https://ebooklibrary12.z13.web.core.windows.net/<br>
+2.	Demo Video URL         : https://youtu.be/ybSfaQe4c0s?si=cZelj_GTlacP6gAY <br>
+3.	GitHub Repository URL  : https://github.com/prasannagoud1916/E-Book-library<br>
+4.	Industry               : ED-TECH(E-Book library)<br>
 
 <h1>Roles & Responsibilities:</h1>
-1)Y.Prasanna (project Development & ) : Manages the web development project and Deployment process.<br>
-2) I. Sai Teja (content )             : Responsible for managing the website content & AI services.<br>
-3) Himabindu ()              : Responsible for managing the description & Documentaion.<br>
+1)Y.Prasanna(project Development & Deployment )       : Manages the web development project and Deployment process.<br>
+2) I. Sai Teja (content&AI services )                 : Responsible for managing the website content & AI services.<br>
+3) Himabindu (Description&Documentation)              : Responsible for managing the description & Documentaion.<br>
 
  <h1>Azure services used:</h1>
 1.	Azure blob storage<br>
 2.	Storage account<br>
 3.	Azure Backup service<br>
-4.	Azure <br>
+4.	Azure AI services <br>
 
 <h1>Problem Statement:</h1>
 In today's digital age, there is a growing need for efficient and user-friendly platforms that facilitate access to a vast array of educational resources. The traditional library model is evolving, and there is a demand for a comprehensive E-Library website that addresses the following challenges:
