@@ -46,13 +46,14 @@ Screenshots----
 <img src="chatbotintergartion.png">.
 <h2>chatbot Test</h2>
 <img src="chatbotworking.png">
+<img src="chatbot10.png">
 <h1>Description:-</h1>
 Here I am attaching the final working website's screenshot for the reference.
 <h1>Working Live Project Display:</h1>
 <img src="website2.png">
 <img src="website1.png">
 <img src="website3.png"><br>
-<h1Resource visualizer</h1>
+<h2>Resource visualizer</h2>
 <img src="rv.png">
 
 
