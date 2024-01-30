@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  justify-content: space-between;
+  /* Aligns text content within the divs to the right */
+  font-size: 15px;
+  flex-direction: row;
+
+}
+
+/* Optional for consistent right alignment across browsers: */
+.nav-item {
+  display: inline-block;
+  /* Ensures list items behave as inline elements */
+}
+
+nav {
+  font-size: 1.5rem;
+  padding: 15px;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: flex;
+  margin-right: 10px;
+  justify-content: right;
+  flex-direction: row;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+
+.navlist {
+  justify-content: right;
+
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: #fff;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  /* Create 3 equal-width columns */
+  grid-template-rows: repeat(3, auto);
+  row-gap: 53px;
+  column-gap: 20px;
+  /* Create 3 rows with automatic height */
+}
+
+
+
+.book {
+  padding: 10px;
+  text-align: center;
+}
+.book img{
+  width: 152px;
+  height: 185px;
+}
+
+
+.book-image {
+  width: 23px;
+  height: 23px;
+  object-fit: cover;
+  /* Ensure images fit within the container */
+}
+
+.book h3 {
+  margin-top: 10px;
+}
+
+.book button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+  font-weight: 800;
+  color: #050506;
+  margin-bottom: 50%;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+  margin-bottom: 53px;
+}
+
+.firstsection div {
+  width: 43%;
+}
+
+img {
+  height: 347px;
+  width: 578px;
+}
+
+.leftsection {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(104, 173, 238);
+  font-size: 20px;
+  margin-left:-256px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Adjust image width & columns */
+  gap: 142px;
+  /* Adjust spacing between images */
+  padding: 34px;
+
+}
+.book-grid-2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+  grid-template-rows: repeat(3, auto);  /* Create 3 rows with automatic height */
+}
+.knowledge-container {
+  width: 500px;
+  /* Adjust width as needed */
+  margin: 0 auto;
+  /* Center the container */
+  padding: 20px;
+  /* Add padding around the text */
+
+  /* Add a light border */
+  font-size: 25px;
+  /* Adjust font size as desired */
+  border-radius: 5%;
+}
+
+/* Style for each book image container */
+.book-image {
+  /* Add a border for visual separation */
+  padding: 10px;
+  /* Add padding for space around the book image */
+  text-align: center;
+  /* Center the content inside the container */
+}
+
+/* Style for book images */
+.book-image img {
+  height: 165px;
+  width: 135px;
+  /* Maintain the aspect ratio of the image */
+}
+.footer-heading{
+  margin-bottom: 50px;
+  padding:25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-style: oblique;
+  text-align: center;
+}
+/* Add space between the button and other content */
+.book-image {
+  position: relative;
+}
+
+/* Style for the button */
+.book-image button {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-image button:hover {
+  background-color: #45a049;
+}
+.price-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+}
+
+.logo img{
+  height: 36px;
+  width: 39px;
+}
+
+.logo {
+  margin: -27px 0px;
+  padding-inline-start: 20px;
+}

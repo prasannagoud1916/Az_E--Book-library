@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="books.css">
+</head>
+
+<body >
+  <div class="books-bg">
+    <nav class="navbar  bg-info" style="width: 100vw;">
+      <ul>
+        <li class="nav-item">
+          <div><a href="home.html">Home</a></div>
+        </li>
+        <li class="nav-item">
+          <div><a href="about.html">About</a></div>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle anchor" style="font-size: 26px;" href="#" data-bs-toggle="dropdown">Books</a>
+        <div class="dropdown-menu megaMENU">
+            <ul>
+              <li><a class="dropdown-item" href="friction.html">Science Friction</a></li>
+              <li><a class="dropdown-item" href="novel.html">Novels</a></li>
+              <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+            <ul>
+          </div>
+      </li>
+      <li class="nav-item">
+        <div><a href="contact.html">Contact</a></div>
+      </li>
+          
+      
+      <li class="nav-item">
+        <div><a href="chatbot.html" target="_blank">Chatbot</a></div>
+
+      </li>
+      
+    </ul>
+    <a class="btn btn-primary" style="margin-right: 36px; margin-top:10px;" href="login.html" >Logout</a>
+  </nav>  
+  <h1 class="text-center">Book Collection</h1>
+  <div class="container-fluid p-5 " style="width: 100vw;">
+  <div class="row d-flex justify-content-center " style="max-width: 1400px;">
+    <div class="col-lg-4 m-3 p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem; height:24rem">
+      <img src="House of flame and shadow.jpg" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">House of flame and shadow</h3>
+        <strong>Sarahj .mass</strong>
+        <p>₹500</p>
+        <button class="btn btn-primary" onclick="onBuyNow('The Veiled Universe', '500')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;
+      height:24rem  ">
+
+      <img src="sky without stars.jpg" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">SKY WITHOUT STARS</h3>
+        <strong>Jessica Brody&Joanne Rendell</strong>
+        <p>₹700</p>
+        <button class="btn btn-primary" onclick="onBuyNow('KITE RUNNER', '700')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="DAUGHTER OF THE DROWNED EMPIRE.jpg" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">DAUGHTER OF THE DROWNED EMPIRE</h3>
+        <strong>FRANKIE DIANE MALLIS</strong>
+        <p>₹400</p>
+        <button class="btn btn-primary" onclick="onBuyNow('MidnightChildren', '400')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="DARK AND HOLLOW STAR.jpg" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">DARK AND HOLLOW STAR</h3>
+        <strong>ASHLEY SHUTTLEWORTH</strong>
+        <p>₹999</p>
+        <button class="btn btn-primary" onclick="onBuyNow('D-99 A Science Fiction', '999')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="THE RUIN OF KINGS.JPG" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">THE RUIN OF KINGS</h3>
+        <strong>JENN LOYNS</strong>
+        <p>₹789</p>
+        <button class="btn btn-primary" onclick="onBuyNow('Sathyajit Ray', '789')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="IRON FLAME.JPG" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">IRON FLAME</h3>
+        <strong>REBECCA YARRORS</strong>
+        <p>₹469</p>
+        <button class="btn btn-primary" onclick="onBuyNow('Out of this World Blishen', '469')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="THE ASHES AND THE STAR CRUSED.JPG" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center"> THE ASHES AND THE STAR CRUSED</h3>
+        <strong>CARSSIA BORADBENT</strong>
+        <p>₹1299</p>
+        <button class="btn btn-primary" onclick="onBuyNow('worlds Apart', '1299')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="BORN OF RAGE.JPG" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center">BORN OF RAGE</h3>
+        <strong>SHERRLYIN KEYYLON</strong>
+        <p>₹829</p>
+        <button class="btn btn-primary" onclick="onBuyNow('Back From Dead', '829')">Buy Now</button>
+      </div>
+    </div>
+    <div class="col-12 m-3  p-3 border-rounded shadow d-flex flex-column justify-content-center align-items-center" style="width: 15rem;  height:24rem  ">
+      <img src="THE ELEMENTS OF THE CROWN.JPG" style="width: 50%;" alt="book">
+      <div class="book card-body text-center ">
+        <h5 class="text-center"> THE ELEMENTS OF CROWN</h3>
+        <strong>KALY. MOOD</strong>
+        <p>₹399</p>
+        <button class="btn btn-primary" onclick="onBuyNow('THE SYSTEM APOCALYPSE', '399')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

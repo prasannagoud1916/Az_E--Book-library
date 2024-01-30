@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - E Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            margin-bottom: 8px;
+        }
+        
+        input,
+        textarea {
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-info" style="width: 100vw;">
+        <ul>
+          <li class="nav-item">
+            <div><a href="home.html">Home</a></div>
+          </li>
+          <li class="nav-item">
+            <div><a href="about.html">About</a></div>
+          </li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle anchor" style="font-size: 26px;" href="#" data-bs-toggle="dropdown">Books</a>
+          <div class="dropdown-menu megaMENU">
+              <ul>
+                <li><a class="dropdown-item" href="friction.html">Science Friction</a></li>
+                <li><a class="dropdown-item" href="novel.html">Novels</a></li>
+                <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+              <ul>
+            </div>
+        </li>
+        <li class="nav-item">
+          <div><a href="contact.html">Contact</a></div>
+        </li>
+            
+        <li class="nav-item">
+            <div><a href="chatbot.html" target="_blank">Chatbot</a></div>
+
+        </li>
+        
+      </ul>
+      <a class="btn btn-primary" style="margin-right: 36px; margin-top:10px;" href="login.html" >Logout</a>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm" onsubmit="submitForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message" >Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" >Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault()
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+        
+            // Validate the form data (you can add more sophisticated validation)
+            if (!name || !email || !message) {
+                if (email.endsWith("@gmail.com")){
+                    alert("Please correct email")
+                }
+                else{
+                alert("Please fill in all fields.");
+            }
+            }else{
+                alert("Your message submitted successfully!")
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>
