@@ -23,7 +23,7 @@ In today's digital age, there is a growing need for efficient and user-friendly 
 
 
 <h1>Project Description:</h1>
-"Discover a digital haven for bibliophiles at our E-book Library website. Immerse yourself in a virtual realm where the written word comes to life, offering a vast and dynamic collection of E-books spanning genres, cultures, and eras. Our user-friendly platform provides seamless navigation, allowing you to browse, search, and explore an extensive catalog with ease. Tailored for modern readers, our website offers a personalized reading experience, complete with customizable preferences and user-friendly features.
+Discover a digital haven for bibliophiles at our E-book Library website. Immerse yourself in a virtual realm where the written word comes to life, offering a vast and dynamic collection of E-books spanning genres, cultures, and eras. Our user-friendly platform provides seamless navigation, allowing you to browse, search, and explore an extensive catalog with ease. Tailored for modern readers, our website offers a personalized reading experience, complete with customizable preferences and user-friendly features.
 
 <h1>Core Azure Services:</h1>
 <b>Azure Blob Storage:-</b> Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network. <br>
