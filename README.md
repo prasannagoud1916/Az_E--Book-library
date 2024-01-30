@@ -1,7 +1,5 @@
-E-Book-library
 
-
-<h1>E-book Library:</h1>
+<h1>E-book Library</h1>
 <h1>Project Details:</h1>
 1.	Project Demo URL:<br>
 2.	Demo Video URL: <br>
