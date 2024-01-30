@@ -1,5 +1,6 @@
 
-<h1>E-book Library</h1>
+<h1>E-BOOK LIBRARY WEBSITE</h1>
+Explore a vast digital realm  of knowledge with our E-Book library website.
 <h1>Project Details:</h1>
 1.	Project Demo URL:<br>
 2.	Demo Video URL: <br>
