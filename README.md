@@ -5,7 +5,7 @@ Explore a vast digital realm  of knowledge with our E-Book library website.
 1.	Project Demo URL:<br>
 2.	Demo Video URL: <br>
 3.	GitHub Repository URL :<br>
-4.	Industry : E-commerce<br>
+4.	Industry : ED-TECH(E-Book library)<br>
 
 <h1>Roles & Responsibilities:</h1>
 1)Y.Prasanna (project Development & Deployment) : Manages the web development project and Deployment process.<br>
