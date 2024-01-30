@@ -19,7 +19,7 @@ Explore a vast digital realm  of knowledge with our E-Book library website.
 4.	Azure AI services <br>
 
 <h1>Problem Statement:</h1>
-In today's digital age, there is a growing need for efficient and user-friendly platforms that facilitate access to a vast array of educational resources. The traditional library model is evolving, and there is a demand for a comprehensive E-Library website that addresses the following challenges:
+In today's digital age, there is a growing need for efficient and user-friendly platforms that facilitate access to a vast array of educational resources. The traditional library model is evolving, and there is a demand for a comprehensive E-Library website that addresses the following challenges
 
 
 <h1>Project Description:</h1>
