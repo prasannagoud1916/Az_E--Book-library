@@ -16,7 +16,7 @@ Explore a vast digital realm  of knowledge with our E-Book library website.
 1.	Azure blob storage<br>
 2.	Storage account<br>
 3.	Azure Backup service<br>
-4.	Azure AI services<br>
+4.	Azure <br>
 
 <h1>Problem Statement:</h1>
 In today's digital age, there is a growing need for efficient and user-friendly platforms that facilitate access to a vast array of educational resources. The traditional library model is evolving, and there is a demand for a comprehensive E-Library website that addresses the following challenges:
