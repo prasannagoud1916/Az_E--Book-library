@@ -1,8 +1,7 @@
-# Az_E--Book-library
+E-Book-library
 
 
 <h1>E-book Library:</h1>
-Transforming Tomorrow with Affordable Tech Solutions Today.
 <h1>Project Details:</h1>
 1.	Project Demo URL:<br>
 2.	Demo Video URL: <br>
