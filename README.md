@@ -5,7 +5,7 @@ Explore a vast digital realm  of knowledge with our E-Book library website.
 1.	Project Demo URL       : https://ebooklibrary12.z13.web.core.windows.net/<br>
 2.	Demo Video URL         : https://youtu.be/ybSfaQe4c0s?si=cZelj_GTlacP6gAY <br>
 3.	GitHub Repository URL  : https://github.com/prasannagoud1916/E-Book-library<br>
-4.	Industry               : ED-TECH(E-Book library)<br>
+4.	Industry               : ED-TECH(E-Book library)<br>.
 
 <h1>Roles & Responsibilities:</h1>
 1)Y.Prasanna(project Development & Deployment )       : Manages the web development project and Deployment process.<br>
